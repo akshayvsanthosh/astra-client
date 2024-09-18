@@ -1,0 +1,357 @@
+/* header.jsx */
+.navLogo {
+    width: 65px;
+}
+
+.headerContainer {
+    /* height: 60px; */
+    background-color: transparent;
+    z-index: 50;
+}
+
+/* home */
+.home{
+    background-image: url("./assets/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.leftPanel{
+    position: relative;
+}
+
+.topImage{
+    height: 223px;
+    width: 28%;
+    position: absolute;
+    top: 8%;
+    left: 10%;
+    border-radius: 25px;
+    border-top: 2px solid #cf9e38;
+    border-left: 2px solid #cf9e38;
+    padding: 5px;
+}
+
+.centerImage{
+    height: 265px;
+    width: 32%;
+    position: absolute;
+    top: 30%;
+    left: 29%;
+    border-radius: 25px;
+    padding: 5px;
+    z-index: 1;
+}
+
+.charImage{
+    height: 265px;
+    width: 22%;
+    position: absolute;
+    top: 30%;
+    left: 33.5%;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.topLeftImage{
+    height: 224px;
+    width: 28%;
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    border-radius: 25px;
+    border-top: 2px solid red;
+    border-right: 2px solid red;
+    border-bottom: 2px solid red;
+    padding: 5px;
+    z-index: 2;
+}
+
+.bottomImage{
+    height: 224px;
+    width: 28%;
+    position: absolute;
+    top: 58%;
+    left: 48%;
+    z-index: 5;
+    border-radius: 25px;
+    border-right: 2px solid #0ab3ff;
+    border-bottom: 2px solid #0ab3ff;
+    padding: 5px;
+}
+
+.rightPanel{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landingHeading {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: -5px;
+    text-shadow: rgba(26, 74, 25, 0.824) -9px 6px 4px;
+}
+
+/* purpose */
+.purpose{
+    background-image: url("./assets/PANTHER.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.purposeBlurDiv{
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(0PX);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heroesHeadings{
+    text-align: end;
+    font-size: 25px;
+    font-family: "Rubik Wet Paint";
+    color: white;
+}
+
+.heroesParas{
+    text-align: end;
+    font-size: 11px;
+    font-weight: 600;
+    color: white;
+}
+
+.despDiv{
+    width: 100%;
+    padding: 30px 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desp{
+    font-size: 20px;
+    line-height: 37px;
+    text-align: center;
+    color: #fff;
+}
+
+.tellBttn{
+    width: 80px;
+    font-size: 16px;
+    padding: 4px;
+    font-weight: 600;
+    border-radius: 8px;
+    
+}
+
+/* footer.jsx */
+.footerContainer {
+    /* background: linear-gradient(185deg, #00d5ff 10%, #020069 35%); */
+    background-color: #020069;
+}
+
+/* about */
+.swimming{
+    background-image: url("./assets/swiming.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aboutDespDiv{
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutDesp{
+    font-size: 29px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    padding: 30px 155px;
+    font-family: cursive;
+    font-weight: 600;
+}
+
+/* grvncSubmit */
+.submitMainDiv {
+    background-color: #f0e6fd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+    width: 100%;
+}
+
+.submitInnerGrid {
+    width: 90% !important;
+    height: 85%;
+    background-color: #8585852e;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    overflow-y: scroll;
+}
+
+.submitInnerGrid::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 5px;
+}
+
+.submitInnerGrid::-webkit-scrollbar-track {
+    background-color: #d7e9fa;
+    display: none;
+}
+
+.submitInnerGrid::-webkit-scrollbar-thumb {
+    background-color: #7ca4dc;
+    border-radius: 5px;
+}
+
+.grievanceHeader {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+.grievanceTitle {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1a3c40;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+  
+.grievanceSubtitle {
+    font-size: 1.3rem;
+    color: #555;
+    font-weight: 300;
+    line-height: 1.2;
+    max-width: 600px;
+    margin: 0 auto;
+} 
+
+.fieldDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.field{
+    width: 35%;
+}
+
+/* Authentication.jsx */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #8585852e;
+  }
+  
+  .auth-box {
+    width: 400px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+.linkTo{
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+/* dashboard */
+.dashboardMainDiv{
+    background-color: #cbc3d6;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    min-height: 100vh;
+    width: 100%;
+}
+
+.orderContainer {
+    padding: 105px 35px 0px 35px;
+}
+
+.orderDetailsBox {
+    background-color: white;
+    min-height: 145px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 17px;
+}
+
+.orderDetailsHeading {
+    font-size: 17px;
+    color: #212121;
+    font-weight: 600;
+    font-family: system-ui;
+    margin-bottom: 2px;
+}
+
+.orderStatusIcon {
+    height: 15px;
+    width: 15px;
+    display: block;
+    border-radius: 20px;
+}
+
+.categoryHeader{
+    font-weight: 800;
+    font-size: 25px;
+    color: #225f66;
+}
+
+.location{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.status{
+    margin-top: -7px;
+    color: #1d8c1d;
+    font-weight: 700;
+}
+
+
+@media (max-width:900px) {
+    .charImage{
+        display: none;
+    }
+
+    .despDiv {
+        padding: 30px 35px;
+    }
+}
+
+@media (max-width:600px) {
+    .field{
+        width: 90%;
+    }
+
+    .aboutDesp {
+        font-size: 25px;
+        line-height: 40px;
+        padding: 30px 10px;
+        
+    }
+}
