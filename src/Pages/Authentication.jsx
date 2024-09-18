@@ -45,7 +45,7 @@ function Authentication({ insideRegister }) {
                         uName: "", email: "", password: ""
                     })
                 } else {
-                    if (result.response.status == 404) {
+                    if (result.response.status == 406) {
                         toast.error(result.response.data)
                         setUserDetails({
                             uName: "", email: "", password: ""
